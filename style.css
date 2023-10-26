@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.container {
+	display: flex;
+	gap: 20px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.square {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+border-radius: 20px;
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	background-color: black;
+	z-index: 5;
+}
+
+.square1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square2 {
+	justify-content: space-around;
+	padding: 5px 0;
+}
+
+.circle2 {
+align-self: flex-end;
+}
+
+.square4 {
+	flex-wrap: wrap;
+}
+
+.circle4 {
+
+}
+.square6 {
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
